@@ -1,0 +1,30 @@
+{
+  "name": "jest-puppeteer",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Testing with Jest and Puppeteer on Glitch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cheerio": "^0.2.2",
+    "cors": "^2.8.5",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "jest": "26.1.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "puppeteer"
+  ]
+}
